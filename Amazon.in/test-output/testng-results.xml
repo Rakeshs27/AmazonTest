@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-07T07:33:28 IST" name="Default suite" finished-at="2022-09-07T07:34:40 IST" duration-ms="71233">
+  <suite started-at="2022-09-17T11:10:11 IST" name="Default suite" finished-at="2022-09-17T11:12:03 IST" duration-ms="112035">
     <groups>
     </groups>
-    <test started-at="2022-09-07T07:33:28 IST" name="Default test" finished-at="2022-09-07T07:34:40 IST" duration-ms="71233">
+    <test started-at="2022-09-17T11:10:11 IST" name="Default test" finished-at="2022-09-17T11:12:03 IST" duration-ms="112035">
       <class name="Testcases.TC02Addcart">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:33:28 IST" name="configBS" finished-at="2022-09-07T07:33:28 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:10:11 IST" name="configBS" finished-at="2022-09-17T11:10:11 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:33:28 IST" name="configBC" finished-at="2022-09-07T07:33:31 IST" duration-ms="2877" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:10:11 IST" name="configBC" finished-at="2022-09-17T11:10:15 IST" duration-ms="3775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:33:31 IST" name="configBM" finished-at="2022-09-07T07:33:52 IST" duration-ms="20525" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:10:15 IST" name="configBM" finished-at="2022-09-17T11:10:27 IST" duration-ms="12400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="TC02()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:33:52 IST" name="TC02" finished-at="2022-09-07T07:34:31 IST" duration-ms="39248" status="FAIL">
+        <test-method signature="TC02()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:10:27 IST" name="TC02" finished-at="2022-09-17T11:11:54 IST" duration-ms="86577" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkoutPrefetch\;"}
-  (Session info: chrome=104.0.5112.101)
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#OtherSellersIframe\;"}
+  (Session info: chrome=105.0.5195.126)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-2L8316M', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f3bdc50ca04f4217ad773bd0bdbdaca
-*** Element info: {Using=id, value=checkoutPrefetch;}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3308c5470c53b65df944ffdf3316f539
+*** Element info: {Using=id, value=OtherSellersIframe;}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkoutPrefetch\;"}
-  (Session info: chrome=104.0.5112.101)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#OtherSellersIframe\;"}
+  (Session info: chrome=105.0.5195.126)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-2L8316M', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f3bdc50ca04f4217ad773bd0bdbdaca
-*** Element info: {Using=id, value=checkoutPrefetch;}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3308c5470c53b65df944ffdf3316f539
+*** Element info: {Using=id, value=OtherSellersIframe;}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,7 +57,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
 at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Testcases.TC02Addcart.TC02(TC02Addcart.java:24)
+at Testcases.TC02Addcart.TC02(TC02Addcart.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,15 +92,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02 -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:34:31 IST" name="configAM" finished-at="2022-09-07T07:34:39 IST" duration-ms="7627" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:11:54 IST" name="configAM" finished-at="2022-09-17T11:12:02 IST" duration-ms="8242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:34:39 IST" name="configAC" finished-at="2022-09-07T07:34:40 IST" duration-ms="885" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:12:02 IST" name="configAC" finished-at="2022-09-17T11:12:03 IST" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-07T07:34:40 IST" name="configAS" finished-at="2022-09-07T07:34:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:Testcases.TC02Addcart@242b836]" started-at="2022-09-17T11:12:03 IST" name="configAS" finished-at="2022-09-17T11:12:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
