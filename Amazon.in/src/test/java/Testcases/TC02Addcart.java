@@ -1,5 +1,6 @@
 package Testcases;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,8 +21,15 @@ public class TC02Addcart extends BaseClass{
 	 driver.findElement(By.xpath("//input[@ID='twotabsearchtextbox']")).sendKeys("MI Poco M2 Pro");
 	 driver.findElement(By.xpath("//input[@type='submit']")).click();
 	 driver.findElement(By.xpath("//span[text()='MI Poco M2 Pro (Out of The Blue, 4GB RAM, 64GB Storage)']")).click();
-	
-	 driver.switchTo().frame(driver.findElement(By.id("checkoutPrefetch;")));
+	 
+     String parentWin = driver.getWindowHandle();
+     System.out.println(parentWin);
+     Set<String> windows = driver.getWindowHandles();
+     System.out.println(windows);
+
+	 WebElement iframe_element = driver.findElement(By.id("OtherSellersIframe;"));
+	 System.out.println(iframe_element);
+	 driver.switchTo().frame(driver.findElement(By.id("OtherSellersIframe;")));
 	 String parentWindowHandle = driver.getWindowHandle();
 	// driver.findElement(By.xpath("//p[text()='6GB RAM , 64GB Storage']")).click();
 	 

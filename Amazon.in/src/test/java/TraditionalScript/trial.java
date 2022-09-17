@@ -24,7 +24,7 @@ public class trial {
         WebDriver driver;
         
         //Setting the webdriver.chrome.driver property to its executable's location
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\Amazon.in\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Amazon.in/chromedriver.exe");
 	
         //Instantiating driver object
         driver = new ChromeDriver();
